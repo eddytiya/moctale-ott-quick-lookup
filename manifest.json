@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Moctale & OTT Quick-Lookup",
+  "version": "1.0.0",
+  "minimum_chrome_version": "106",
+  "description": "Highlight a movie or TV title to find where to watch it in India.",
+  "permissions": ["activeTab", "contextMenus", "scripting", "storage", "clipboardWrite"],
+  "host_permissions": ["https://api.themoviedb.org/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html" }
+}

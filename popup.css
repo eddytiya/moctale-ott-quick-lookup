@@ -1,0 +1,31 @@
+:root {
+  color-scheme: dark;
+  font: 14px/1.5 system-ui, sans-serif;
+  background: #151822;
+  color: #f5f3ff;
+}
+* { box-sizing: border-box; }
+body { width: 320px; margin: 0; }
+main { padding: 22px; }
+h1 { font-size: 26px; line-height: 1.1; letter-spacing: -.03em; margin: 0; }
+.intro, #key-status, footer { color: #c0bed2; }
+.intro { margin: 10px 0 20px; }
+label { display: block; font-weight: 650; margin-bottom: 6px; }
+input, button { font: inherit; border-radius: 8px; padding: 8px 11px; }
+input { width: 100%; border: 1px solid #595871; background: #1d2030; color: inherit; }
+input::placeholder { color: #b1aec8; }
+.actions { display: flex; gap: 8px; margin-top: 10px; }
+button { border: 0; font-weight: 700; cursor: pointer; }
+#save { flex: 1; color: #21163d; background: #d5c4ff; }
+#save:hover:enabled { background: #e3d8ff; }
+#remove { color: inherit; background: #292c3a; }
+button:disabled { opacity: .55; cursor: default; }
+:focus-visible { outline: 2px solid #f5eaff; outline-offset: 3px; }
+#key-status { min-height: 18px; margin: 8px 0 12px; font-size: 12px; }
+a { color: #d3c4ff; text-underline-offset: 3px; }
+footer {
+  display: flex; align-items: center; gap: 10px; border-top: 1px solid #38394c;
+  padding-top: 12px; margin-top: 20px; font-size: 11px;
+}
+footer img { display: block; }
+footer p { margin: 0; }
